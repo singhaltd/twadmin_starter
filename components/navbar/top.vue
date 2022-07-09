@@ -1,25 +1,23 @@
 <template>
-  <div class="navbar bg-base-100">
+  <div class="navbar shadow">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      <a class="btn btn-ghost normal-case text-xl">
+        <img src="/logo.jpeg" class="w-6 h-6 rounded-full" />
+        <p class="pl-2 text-red-600">OHZAO</p>
+      </a>
+      |
+      <p class="pl-2 text-gray-500">Agentcy</p>
     </div>
     <div class="flex-none">
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost btn-circle">
           <div class="indicator">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512">
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                d="M448 384c-.1 16.4-13 32-32.1 32H32.08C13 416 .09 400.4 0 384a31.25 31.25 0 0 1 8.61-21.71c19.32-20.76 55.47-52 55.47-154.29 0-77.7 54.48-139.9 127.94-155.16V32a32 32 0 0 1 64 0v20.84C329.42 68.1 383.9 130.3 383.9 208c0 102.3 36.15 133.53 55.47 154.29A31.25 31.25 0 0 1 448 384z"
+                class="fa-secondary"
               />
+              <path d="M173 448h128a64 64 0 0 1-128 0z" fill="rgb(239 68 68 / var(--tw-bg-opacity))" />
             </svg>
             <span class="badge badge-sm indicator-item">8</span>
           </div>
@@ -43,7 +41,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> | <p>Fullname</p>
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
